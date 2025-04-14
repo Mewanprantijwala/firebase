@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
-import { createTour } from "../features/tourSlice"; // Update the action to match your new feature
+import { createTour } from "../features/TourSlice"; // Update the action to match your new feature
 import { useNavigate } from "react-router-dom";
 
 const TourForm = () => {
